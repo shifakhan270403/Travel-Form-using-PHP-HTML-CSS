@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+.container h1, p{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+.container p{
+    font-size: large;
+}
+input, textarea{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    outline: none;
+    border-radius: 15px;
+    border: 3px solid black;
+    font-size: 20px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 8px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background:darkblue;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 14px;
+    cursor: pointer;
+    font-family: 'Bricolage Grotesque', sans-serif;
+
+}
+.submitmsg{
+    font-size: 25px; 
+    color: blueviolet;
+}
+/*
+.bg{
+    color: aqua;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    
+}*/
